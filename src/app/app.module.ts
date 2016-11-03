@@ -5,7 +5,7 @@ import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
-import { DetailsPage } from '../pages/details/details';   
+import { Detail } from '../pages/detail/detail';
 
 @NgModule({
   declarations: [
@@ -14,7 +14,7 @@ import { DetailsPage } from '../pages/details/details';
     ContactPage,
     HomePage,
     TabsPage,
-	DetailsPage
+    Detail
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -26,7 +26,7 @@ import { DetailsPage } from '../pages/details/details';
     ContactPage,
     HomePage,
     TabsPage,
-	DetailsPage
+    Detail
   ],
   providers: []
 })

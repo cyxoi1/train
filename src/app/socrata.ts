@@ -11,10 +11,4 @@ export class SocrataService {
 		let permitData = this.http.get('https://data.seattle.gov/resource/i5jq-ms7b.json?$limit=50');
 		return permitData;
     }
-	getCount() {
-	   let countTotal = this.http.get('https://data.cityofchicago.org/resource/ydr8-5enu.json?$select=count(permit_)');
-		return countTotal;
-	}
-
-	
 }
