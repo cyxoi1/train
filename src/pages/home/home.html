@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="card-background-page">
+  <ion-card>
+    <img src="img/seattle.jpg"/>
+    <div class="card-title">Seattle</div>
+    <div class="card-subtitle">Permits</div>
+	 <div padding>
+        <button ion-button block (click)="getPermits()">Search</button>
+    </div>
+  </ion-card>
+  <ion-card *ngFor="let permit of foundPermits" (click)="goToDetail(permit)">
+        <ion-card-header>
+             <ion-icon name="home" item-left></ion-icon> {{ permit.category }}
+        </ion-card-header>
+
+		 <ion-card-content>
+			 {{ permit.application_permit_number }}
+		  </ion-card-content>
+    </ion-card>
+
+</ion-content>
