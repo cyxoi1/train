@@ -31,3 +31,4 @@ import { Detail } from '../pages/detail/detail';
   providers: []
 })
 export class AppModule {}
+//wtf
