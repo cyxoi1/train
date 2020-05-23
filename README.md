@@ -34,5 +34,5 @@ Part 3: Adding a theme and styling to the application
 https://dzone.com/articles/mobile-citizen-engagement-app-in-ionic-2-part-3
 
 ## License
-TODO: Write license
+TODO: Write license // why?
 
